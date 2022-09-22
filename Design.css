@@ -23,6 +23,7 @@ body {
 }
 .post__header--primary {
   opacity: 0.75;
+  margin-bottom: 0px;
 }
 .post__header--secondary {
   opacity: 1;
@@ -37,6 +38,7 @@ body {
   color: #FFFFFF;
   height: 103px;
   margin-bottom: 18px;
+  margin-top: 0px;
 }
 .post__button {
   border-radius: 28px;
