@@ -1,4 +1,5 @@
 $color : #FFFFFF;
+$font_family:"Open Sans", sans-serif;
 
 body{
     padding-top: 200px;
@@ -15,7 +16,7 @@ padding-top: 85px;
 padding-left: 95px;
      &__header {
     //font: normal normal normal 18px/24px "Open Sans", sans-serif;
-            font-family: "Open Sans", sans-serif;
+            font-family:$font_family ;
             font-size: 18px;
             font-weight: normal;
             line-height: 1.5rem;
@@ -50,7 +51,7 @@ padding-left: 95px;
  &__button {
     border-radius: 28px;
     border: 1px solid #FFFFFF;
-    font-family: "Open Sans", sans-serif;
+    font-family: $font_family;
     font-size: 16px;
     font-weight: bold;
     line-height: 16px;
@@ -59,8 +60,8 @@ padding-left: 95px;
     padding-bottom: 16px;
     padding-left: 45px;
     padding-right: 45px;
-    width: 212px;
-    height: 60px;
+   /* width: 212px;
+    height: 60px;*/
     background-color: #0884BD;
     color:  $color;
     margin-top: 105.5px;
@@ -77,15 +78,12 @@ padding-left: 95px;
         border: none;
         padding-top: 2px;
         padding-bottom: 2px;
-        padding-left: 21.34;
-        padding-right: 21.34;
-        width: 60px;
-        height: 18px;
+        padding-left: 21.34px;
+        padding-right: 21.34px;
         background-color: rgb(109, 135, 145);
         color: $color;
-       /* font-family: normal normal 600 15px/20px Open Sans;*/
         font-size: 10px;
-        font-family: "Open Sans", sans-serif;
+        font-family: $font_family;
         line-height: 15px;
         font-weight: 600;
       }

@@ -52,8 +52,8 @@ body {
   padding-bottom: 16px;
   padding-left: 45px;
   padding-right: 45px;
-  width: 212px;
-  height: 60px;
+  /* width: 212px;
+   height: 60px;*/
   background-color: #0884BD;
   color: #FFFFFF;
   margin-top: 105.5px;
@@ -69,13 +69,10 @@ body {
   border: none;
   padding-top: 2px;
   padding-bottom: 2px;
-  padding-left: 21.34;
-  padding-right: 21.34;
-  width: 60px;
-  height: 18px;
+  padding-left: 21.34px;
+  padding-right: 21.34px;
   background-color: rgb(109, 135, 145);
   color: #FFFFFF;
-  /* font-family: normal normal 600 15px/20px Open Sans;*/
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
   line-height: 15px;
