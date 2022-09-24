@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&display=swap");
 body {
   padding-top: 200px;
 }
@@ -14,12 +15,10 @@ body {
   padding-left: 95px;
 }
 .post__header {
+  color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
-  line-height: 1.5rem;
-  color: #FFFFFF;
-  font-size: 18px;
 }
 .post__header--primary {
   opacity: 0.75;
@@ -30,49 +29,41 @@ body {
   margin-bottom: 18px;
 }
 .post__message {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.875rem;
   font-weight: 400;
-  line-height: 2.875rem;
   letter-spacing: 0px;
   color: #FFFFFF;
-  height: 100px;
   margin-bottom: 18px;
   margin-top: 0px;
 }
 .post__button {
-  border-radius: 28px;
-  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+  border-radius: 28px;
+  border: 1px solid #FFFFFF;
   font-weight: bold;
-  line-height: 1rem;
+  line-height: 1.5;
   letter-spacing: 0px;
-  padding-top: 18px;
-  padding-bottom: 15px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding: 18px 45px 15px;
   background-color: #0884BD;
-  color: #FFFFFF;
   margin-top: 105px;
 }
 .post__buttons {
   display: block;
   float: left;
 }
-.post__buttons__tag {
+.post__tag {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.625rem;
   margin-right: 15px;
   opacity: 1;
   border-radius: 20px;
   border: none;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 2px 20px;
   background-color: rgb(109, 135, 145);
-  color: #FFFFFF;
-  font-size: 0.625rem;
-  font-family: "Open Sans", sans-serif;
-  line-height: 0.938rem;
+  line-height: 1.6;
   font-weight: 400;
 }/*# sourceMappingURL=Design.css.map */

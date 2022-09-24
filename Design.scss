@@ -1,91 +1,83 @@
-$color : #FFFFFF;
-$font_family:"Open Sans", sans-serif;
+@import 'colors';
+@import 'fontFamily';
+@import 'function';
 
-body{
-    padding-top: 200px;
+@mixin fontAndcolor() {
+   color: $headerColor;
+   font-family: $headerFamily ;
 }
-.post{
-min-height: 500px;
-max-width: 100%;
-background-image: url("design.jpg");
-background-repeat: no-repeat;
-background-size:cover;
-margin-top: 55px;
-border-radius: 10px;
-padding-top: 85px;
-padding-left: 95px;
-     &__header {
-    //font: normal normal normal 18px/24px "Open Sans", sans-serif;
-            font-family:$font_family ;
-            font-size: 1.125rem;
-            font-weight: normal;
-            line-height: 1.5rem;
-            color: $color;
-            font-size: 18px;
 
-               &--primary{
-                  opacity: 0.75;
-                  margin-bottom: 0px;
-                         }
-
-               &--secondary{
-                 opacity:1;
-                 margin-bottom: 18px;
-               
-                           }
-    
+body {
+   padding-top: 200px;
 }
-&__message {
-   
-     font-family: Montserrat, sans-serif;
-     font-size:2.875rem;
-     font-weight: 400;
-     line-height: 2.875rem;
-     letter-spacing: 0px;
-     color: $color;
-     height: 100px;
-     margin-bottom: 18px;
-    margin-top: 0px;
-    
- } 
- &__button {
-    border-radius: 28px;
-    border: 1px solid #FFFFFF;
-    font-family: $font_family;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1rem;
-    letter-spacing: 0px;
-    padding-top: 18px;
-    padding-bottom: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
-    background-color: #0884BD;
-    color:  $color;
-    margin-top: 105px;
- }
- &__buttons {
-    
-    display: block;
-    float: left;
 
-      &__tag {
-        margin-right: 15px;
-        opacity: 1;
-        border-radius: 20px;
-        border: none;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: rgb(109, 135, 145);
-        color: $color;
-        font-size: 0.625rem;
-        font-family: $font_family;
-        line-height: 0.938rem;
-        font-weight: 400;
+.post {
+   min-height: 500px;
+   max-width: 100%;
+   background-image: url("design.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 55px;
+   border-radius: 10px;
+   padding-top: 85px;
+   padding-left: 95px;
+
+   &__header {
+
+      @include fontAndcolor();
+      font-size: pixelToRem(18);
+      font-weight: normal;
+
+      &--primary {
+         opacity: 0.75;
+         margin-bottom: 0px;
       }
-    
- }
+
+      &--secondary {
+         opacity: 1;
+         margin-bottom: 18px;
+      }
+   }
+
+   &__message {
+      font-family: $message;
+      font-size: pixelToRem(46);
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: $headerColor;
+      margin-bottom: 18px;
+      margin-top: 0px;
+   }
+
+   &__button {
+      @include fontAndcolor();
+      font-size: pixelToRem(16);
+      border-radius: 28px;
+      border: 1px solid $headerColor;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0px;
+      padding: 18px 45px 15px;
+      background-color: $buttonColor;
+      margin-top: 105px;
+   }
+
+   &__buttons {
+      display: block;
+      float: left;
+   }
+
+   &__tag {
+      @include fontAndcolor();
+      font-size: pixelToRem(10);
+      margin-right: 15px;
+      opacity: 1;
+      border-radius: 20px;
+      border: none;
+      padding: 2px 20px;
+      background-color: $tagsColor;
+      line-height: 1.6;
+      font-weight: 400;
+   }
 
 }

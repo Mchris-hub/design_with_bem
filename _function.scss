@@ -1,0 +1,6 @@
+@use 'sass:math';
+$context: 16; //browsers' basic font-height in pixel
+
+@function pixelToRem($pixel) {
+    @return (math.div($pixel, $context)) * 1rem;
+}
