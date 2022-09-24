@@ -65,9 +65,11 @@ body {
    &__buttons {
       display: block;
       float: left;
+
+
    }
 
-   &__tag {
+   .btn-tag {
       @include fontAndcolor();
       font-size: pixelToRem(10);
       margin-right: 15px;
@@ -79,5 +81,6 @@ body {
       line-height: 1.6;
       font-weight: 400;
    }
+
 
 }

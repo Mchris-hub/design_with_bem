@@ -54,7 +54,7 @@ body {
   display: block;
   float: left;
 }
-.post__tag {
+.post .btn-tag {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 0.625rem;
