@@ -63,10 +63,10 @@ body {
    }
 
    &__buttons {
-      display: block;
-      float: left;
-
-
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
    }
 
    .btn-tag {

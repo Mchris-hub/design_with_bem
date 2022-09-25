@@ -51,8 +51,10 @@ body {
   margin-top: 105px;
 }
 .post__buttons {
-  display: block;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .post .btn-tag {
   color: #FFFFFF;
