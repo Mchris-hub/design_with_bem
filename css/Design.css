@@ -37,7 +37,7 @@ body {
   margin-bottom: 18px;
   margin-top: 0px;
 }
-.post__button {
+.post .btn-primary {
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
@@ -53,7 +53,6 @@ body {
 .post__buttons {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: flex-start;
 }
 .post .btn-tag {
