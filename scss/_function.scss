@@ -1,6 +1,14 @@
 @use 'sass:math';
 $context: 16; //browsers' basic font-height in pixel
 
-@function pixelToRem($pixel) {
-    @return (math.div($pixel, $context)) * 1rem;
+@mixin fontFamily($weight) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 }
+
+// fontFamily() {
+
+
+//     @return (math.div($pixel, $context)) * 1rem;
+// }

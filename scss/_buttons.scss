@@ -4,12 +4,12 @@
 
 @mixin fontAndcolor() {
     color: $headerColor;
-    font-family: $headerFamily ;
+    font-family: $OpenSans ;
 }
 
 @mixin btn-tag {
-    color: $headerColor;
-    font-family: $buttonsFontFamily;
+
+    @include fontAndcolor();
     font-size: 0.625rem;
     margin-right: 15px;
     opacity: 1;
@@ -18,7 +18,7 @@
     padding: 2px 20px;
     background-color: $tagsColor;
     line-height: 1.6;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 // .btn-tag {

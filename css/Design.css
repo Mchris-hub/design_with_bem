@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 :root {
   font-size: 16px;
 }
@@ -21,9 +23,9 @@ body {
 }
 .post__header {
   color: #FFFFFF;
-  font-family: "Open Sans, Regular", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
-  font-weight: normal;
+  font-weight: 400;
 }
 .post__header--primary {
   opacity: 0.75;
@@ -34,21 +36,20 @@ body {
   margin-bottom: 18px;
 }
 .post__message {
-  font-family: "Montserrat, SemiBold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.875rem;
-  font-weight: 400;
   letter-spacing: 0px;
   color: #FFFFFF;
   margin-bottom: 18px;
   margin-top: 0px;
 }
 .post .btn-primary {
-  font-family: "Open Sans, Bold", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
   color: #FFFFFF;
   font-size: 1rem;
   border-radius: 28px;
   border: 1px solid #FFFFFF;
-  font-weight: bold;
   line-height: 1.5;
   letter-spacing: 0px;
   padding: 18px 45px 15px;
@@ -62,7 +63,7 @@ body {
 }
 .post .btn-tag {
   color: #FFFFFF;
-  font-family: "Open Sans, SemiBold", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.625rem;
   margin-right: 15px;
   opacity: 1;
@@ -71,7 +72,7 @@ body {
   padding: 2px 20px;
   background-color: rgb(109, 135, 145);
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=design.css.map */
