@@ -1,6 +1,7 @@
 @import 'colors';
 @import 'fontFamily';
 @import 'function';
+@import 'buttons';
 
 @mixin fontAndcolor() {
    color: $headerColor;
@@ -69,16 +70,7 @@ body {
    }
 
    .btn-tag {
-      @include fontAndcolor();
-      font-size: pixelToRem(10);
-      margin-right: 15px;
-      opacity: 1;
-      border-radius: 20px;
-      border: none;
-      padding: 2px 20px;
-      background-color: $tagsColor;
-      line-height: 1.6;
-      font-weight: 400;
+      @include btn-tag()
    }
 
 
