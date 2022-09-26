@@ -1,6 +1,5 @@
 @import 'colors';
 @import 'fontFamily';
-// @import 'function';
 @import 'buttons';
 
 @mixin fontAndcolor() {
@@ -55,7 +54,9 @@ body {
    }
 
    .btn-primary {
-      @include fontAndcolor();
+
+      font-family: $primaryButton;
+      color: $headerColor;
       font-size: 1rem;
       border-radius: 28px;
       border: 1px solid $headerColor;

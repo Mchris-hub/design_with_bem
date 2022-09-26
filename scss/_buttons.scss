@@ -1,6 +1,6 @@
 @import 'colors';
-// @import 'fontFamily';
-@import 'function';
+@import 'fontFamily';
+// @import 'function';
 
 @mixin fontAndcolor() {
     color: $headerColor;
@@ -8,7 +8,8 @@
 }
 
 @mixin btn-tag {
-    @include fontAndcolor();
+    color: $headerColor;
+    font-family: $buttonsFontFamily;
     font-size: 0.625rem;
     margin-right: 15px;
     opacity: 1;

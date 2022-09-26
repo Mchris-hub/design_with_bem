@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;600;700&display=swap");
 :root {
   font-size: 16px;
 }
@@ -20,7 +21,7 @@ body {
 }
 .post__header {
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans, Regular", sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
 }
@@ -33,7 +34,7 @@ body {
   margin-bottom: 18px;
 }
 .post__message {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat, SemiBold", sans-serif;
   font-size: 2.875rem;
   font-weight: 400;
   letter-spacing: 0px;
@@ -42,8 +43,8 @@ body {
   margin-top: 0px;
 }
 .post .btn-primary {
+  font-family: "Open Sans, Bold", sans-serif;
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   border-radius: 28px;
   border: 1px solid #FFFFFF;
@@ -61,7 +62,7 @@ body {
 }
 .post .btn-tag {
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans, SemiBold", sans-serif;
   font-size: 0.625rem;
   margin-right: 15px;
   opacity: 1;
