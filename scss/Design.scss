@@ -1,11 +1,15 @@
 @import 'colors';
 @import 'fontFamily';
-@import 'function';
+// @import 'function';
 @import 'buttons';
 
 @mixin fontAndcolor() {
    color: $headerColor;
    font-family: $headerFamily ;
+}
+
+:root {
+   font-size: 16px;
 }
 
 body {
@@ -26,7 +30,7 @@ body {
    &__header {
 
       @include fontAndcolor();
-      font-size: pixelToRem(18);
+      font-size: 1.125rem;
       font-weight: normal;
 
       &--primary {
@@ -42,7 +46,7 @@ body {
 
    &__message {
       font-family: $message;
-      font-size: pixelToRem(46);
+      font-size: 2.875rem;
       font-weight: 400;
       letter-spacing: 0px;
       color: $headerColor;
@@ -52,7 +56,7 @@ body {
 
    .btn-primary {
       @include fontAndcolor();
-      font-size: pixelToRem(16);
+      font-size: 1rem;
       border-radius: 28px;
       border: 1px solid $headerColor;
       font-weight: bold;

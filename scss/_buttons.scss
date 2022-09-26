@@ -1,5 +1,5 @@
 @import 'colors';
-@import 'fontFamily';
+// @import 'fontFamily';
 @import 'function';
 
 @mixin fontAndcolor() {
@@ -9,7 +9,7 @@
 
 @mixin btn-tag {
     @include fontAndcolor();
-    font-size: pixelToRem(10);
+    font-size: 0.625rem;
     margin-right: 15px;
     opacity: 1;
     border-radius: 20px;
